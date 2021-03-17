@@ -1,0 +1,101 @@
+body{
+  background-color: #283149;
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+
+  /* <h1> visible on the top of the site */
+#title{
+  color: #DBEDF3;
+  font-size: 4rem;
+  text-shadow: 3px 0 #DA0463; /* zmienić na: #df4c50 */
+}
+
+
+  /* Drum sound buttons' images that are assigned to the proper chars */
+.q{
+  background-image: url("/images/tom1.png");
+  
+}
+  
+.w{
+  background-image: url("/images/tom2.png");
+}
+  
+.e{
+  background-image: url("/images/tom3.png");
+}
+  
+.r{
+  background-image: url("/images/tom4.png");
+}
+  
+.t{
+  background-image: url("/images/snare.png");
+}
+  
+.y{
+  background-image: url("/images/crash.png");
+}
+  
+.u{
+  background-image: url("/images/kick.png");
+}
+
+
+  /* Drum sound buttons' container */
+.drum-container{
+  margin: 10% auto;
+}
+
+
+  /* Drum sound buttons */
+.drum-button{
+  background-color: white;
+  border: 5px solid;
+  border-radius: 15px;
+  color: #df4c50;
+  display: inline-block;
+  font-family: 'Karla', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  height: 150px;
+  line-height: 2;
+  margin: 10px;
+  outline: none;
+  text-align: center;
+  width: 150px;
+}  
+
+
+  /* Button's pressing animation */
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+
+footer{
+  color: #DBEDF3;
+}
+
+
+  /* Styling links */
+a:link, a:visited{
+  color: #df4c50;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus{
+  color: #df4c00;
+  cursor: pointer;
+}
+
+
+  /* Styling email <p> */ 
+.email{
+  display: block;
+  margin: 0 0 10px;
+}
