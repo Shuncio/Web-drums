@@ -1,62 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang='en' dir='ltr'>
+    <head>
+        <title>Web Drums</title>
+          
+            <!-- Meta -->
+        <meta charset='utf-8'>
+        <meta nametag='description' content='Welcome to the fully responsive Web Drum Kit Site! Ad-free, invigilation-free, 100 % Free Software.'>
+        <meta nametag='keywords' content='online drum kit, drum, melody, responsive, music, making sound, music webapp, music website, making sound'>
+        <meta name='viewport' content='width=device-width, inital-scale=1'>
 
-  <head>
-    <title>Web Drums</title>
-    
-      <!-- Favicon -->
-    <link rel="icon" href="favicon.ico">
+            <!-- CSS stylesheets -->
+        <link rel='stylesheet' href='css/main.css'>
 
-      <!-- Meta -->
-    <meta charset="utf-8">
-    <meta nametag="description" content="Welcome to the fully responsive Web Drum Kit Site! Ad-free, invigilation-free, 100 % Free Software.">
-    <meta nametag="keywords" content="online drum kit, drum, melody, responsive, music, making sound, music webapp, music website, making sound">
-    <meta name="viewport" content="width=device-width, inital-scale=1">
-    
-      <!-- CSS stylesheets -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
+            <!-- Google Fonts -->
+        <link rel='preconnect' href='https://fonts.gstatic.com'>
+        <link href='https://fonts.googleapis.com/css2?family=Karla&display=swap' rel='stylesheet'>
+        
+        <!-- JS files -->
+        <script src='../js/index.js' defer> charset='utf-8'</script>
+        
+            <!-- Favicon -->
+        <link rel='icon' href='favicon.ico'>
+    </head>
 
-      <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-  </head>
+    <body>
+        <h1 id='title'>Web drums</h1>
+            <!-- Drum Buttons -->
+        <div class='drum-container'>
+            <button class='q drum-button'>q</button>
+            <button class='w drum-button'>w</button>
+            <button class='e drum-button'>e</button>
+            <button class='r drum-button'>r</button>
+            <button class='t drum-button'>t</button>
+            <button class='y drum-button'>y</button>
+            <button class='u drum-button'>u</button>
+        </div>
 
-  <body>
-    <h1 id="title">Web drums</h1>
-    
-      <!-- Drum Buttons -->
-    <div class="drum-container">
-      
-      <button class="q drum-button">q</button>
-      <button class="w drum-button">w</button>
-      <button class="e drum-button">e</button>
-      <button class="r drum-button">r</button>
-      <button class="t drum-button">t</button>
-      <button class="y drum-button">y</button>
-      <button class="u drum-button">u</button>
+          <!-- Footer -->
+        <footer id='footer'>
+                <!-- Github logo & profile link -->
+            <a href='https://www.github.com/' target='_blank'> 
+                <img src='images/github-logo.svg'> 
+            </a>
 
-    </div>
-
-      <!-- Footer -->
-    <footer id="footer">
-      
-        <!-- Github logo & profile link -->
-      <a href="https://www.github.com/" target="_blank"> 
-        <img src="images/github-logo.svg"> 
-      </a>
-
-        <!-- Github profile link -->
-      <p class="p-footer">Made by
-        <a class="github-user" href="https://www.github.com/Shuncio" target="_blank">Shuncio</a>. 2021
-      </p>
-
-        <!-- E-mail -->
-      <a class="email" href="mailto:pplonka@protonmail.ch">pplonka@protonmail.ch</a>
-
-    </footer>
-
-    <script src="js/index.js" charset="utf-8"></script>
-  </body>
-
+                <!-- Github profile link -->
+            <p class='p-footer'>Made by
+                <a class='github-user' href='https://www.github.com/Shuncio' target='_blank'>Shuncio</a>.
+                    <!-- shows the current year -->
+                <span class='p-curr-year'></span>
+            </p>
+        </footer>
+    </body>
 </html>
