@@ -9,7 +9,7 @@ body{
 
     /* <h1> visible on the top of the site */
 #title{
-    font-size: 4rem;
+    font-size: 3.8rem;
     text-shadow: 3px 0 #DA0463; /* zmienić na: #df4c50 */
 }
 
