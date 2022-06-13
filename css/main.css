@@ -90,6 +90,7 @@ a:hover, a:active, a:focus, a:link, a:visited{
     /* better displaying of elements on mobiles */
 @media (max-width: 460px) {
     #footer{
+        position: static;
         margin-top: 20px;
     }
 }
