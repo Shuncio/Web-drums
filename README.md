@@ -1,10 +1,6 @@
 # Web-drums 
 Fully responsive drum kit website - https://shuncio.github.io/Web-drums/
 
-TODO:
-1. Transition from that ugly media queries part of the CSS code into a modern way of styling elements – Flexbox.
-
-
 Licensed under the GPLv3 terms, 100 % free software. 
 
 The legal notes about the favicon I used (which was generated using the graphic from Twitter Twemoji):
