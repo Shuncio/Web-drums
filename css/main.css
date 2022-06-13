@@ -1,11 +1,3 @@
-    /* better displaying of elements on mobiles */
-@media (max-width: 450px) {
-    #footer{
-        display: block;
-        margin-top: 20px;
-    }
-}
-
 body{
     background-color: #283149;
     color: #DBEDF3;
@@ -93,4 +85,11 @@ a:hover, a:active, a:focus, a:link, a:visited{
     /* styling the footer <p> */
 .p-footer{
      margin: 4px 0 0;
+}
+
+    /* better displaying of elements on mobiles */
+@media (max-width: 460px) {
+    #footer{
+        margin-top: 20px;
+    }
 }
